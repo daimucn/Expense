@@ -34,7 +34,7 @@ struct ContentView: View {
                     expenseViewModel.delectItem(index: indexSet)
                 }
             }
-            .navigationTitle("账单")
+            .navigationTitle("超级账单")
             .toolbar {
                 NavigationLink {
                     AddView(expense: expenseViewModel)
